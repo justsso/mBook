@@ -1,19 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Loadable from 'react-loadable';
+import Home from './container/Home/Home';
+import Hello from './Hello'
+import My from './container/My/My';
+
+import LoadingComponent from './MyLoading';
+
+
+
+const AsyncHello = Loadable({
+    loader: () => import('./Hello'),
+    loading: LoadingComponent
+})
+
+
+const AsyncMy = Loadable({
+    loader: () => import('./container/My/My'),
+    loading: LoadingComponent
+})
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+          <div>
+              <Route exact path="/" component={Home} ></Route>
+              <Route exact path="/hello" component={AsyncHello} />
+              <Route path='/my' component={AsyncMy}></Route>
+          </div>
+      </Router>
     );
   }
 }
