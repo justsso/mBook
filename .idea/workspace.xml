@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb026dc3-3f1c-4c36-b06e-71cf5dab3ec0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/container/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/container/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +52,7 @@
         <counts>
           <entry key="babelrc" value="9" />
           <entry key="html" value="2" />
-          <entry key="js" value="1366" />
+          <entry key="js" value="1417" />
           <entry key="json" value="18" />
           <entry key="less" value="14" />
         </counts>
@@ -64,7 +61,7 @@
         <counts>
           <entry key="HTML" value="2" />
           <entry key="JSON" value="27" />
-          <entry key="JavaScript" value="1366" />
+          <entry key="JavaScript" value="1417" />
           <entry key="Less" value="14" />
         </counts>
       </usages-collector>
@@ -114,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/container/Home/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="52" column="40" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="40" />
+            <state relative-caret-position="418">
+              <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
               <folding>
                 <element signature="e#421#447#0" expanded="true" />
               </folding>
@@ -183,6 +180,7 @@
     <findStrings>
       <find>css</find>
       <find>exclude</find>
+      <find>flexGrow</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,7 +221,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -316,15 +314,15 @@
       <workItem from="1534491040232" duration="3202000" />
       <workItem from="1534682213022" duration="3697000" />
       <workItem from="1534727673024" duration="236000" />
-      <workItem from="1534768472881" duration="3935000" />
+      <workItem from="1534768472881" duration="4704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23226000" />
+    <option name="totallyTimeSpent" value="23995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16778976" />
@@ -344,7 +342,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.022911051" />
+      <window_info active="true" anchor="right" id="Terminal" order="3" visible="true" weight="0.12668464" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/container/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="40" />
+        <state relative-caret-position="418">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
           <folding>
             <element signature="e#421#447#0" expanded="true" />
           </folding>
