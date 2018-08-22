@@ -5,6 +5,7 @@ import Home from './container/Home/Home';
 import Login from './container/Login/Login'
 import Hello from './Hello'
 import My from './container/My/My';
+import Index from './container/Index/Index';
 
 import LoadingComponent from './MyLoading';
 
@@ -26,7 +27,8 @@ class App extends Component {
     return (
       <Router>
           <div>
-              <Route exact path="/" component={Home} ></Route>
+              <Route path='/' component = {Index} exact ></Route>
+              {/*<Route exact path="/" component={Home} ></Route>*/}
               <Route exact path="/login" component={Login} />
               <Route path='/my' component={AsyncMy}></Route>
           </div>
