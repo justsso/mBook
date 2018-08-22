@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Loadable from 'react-loadable';
 import Home from './container/Home/Home';
+import Login from './container/Login/Login'
 import Hello from './Hello'
 import My from './container/My/My';
 
@@ -26,7 +27,7 @@ class App extends Component {
       <Router>
           <div>
               <Route exact path="/" component={Home} ></Route>
-              <Route exact path="/hello" component={AsyncHello} />
+              <Route exact path="/login" component={Login} />
               <Route path='/my' component={AsyncMy}></Route>
           </div>
       </Router>
