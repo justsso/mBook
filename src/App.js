@@ -31,7 +31,7 @@ class App extends Component {
               {/*<Route exact path="/" component={Home} ></Route>*/}
               <Route exact path="/login" component={Login} />
               <Route path='/my' component={AsyncMy}></Route>
-              <Route path='' ></Route>
+              <Route path='' ></Route><Route path='' ></Route><Route path='' ></Route>
           </div>
       </Router>
     );
