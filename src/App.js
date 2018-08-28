@@ -27,8 +27,7 @@ class App extends Component {
     return (
       <Router>
           <div>
-              <Route path='/' component = {Index} exact ></Route>
-              {/*<Route exact path="/" component={Home} ></Route>*/}
+              <Route path='/' component = {Index} exact ></Route>4
               <Route exact path="/login" component={Login} />
               <Route path='/my' component={AsyncMy}></Route>
           </div>
