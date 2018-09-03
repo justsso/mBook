@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './ErrorBoundary.less';
 class ErrorBoundary extends Component{
     constructor(props){
         super(props)
