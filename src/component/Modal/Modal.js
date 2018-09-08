@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import ReactDOM from 'react-dom';
 import { FaTimes  } from 'react-icons/fa';
 import './Modal.less';
-
+//饼干
 export default class Modal extends Component{
     constructor(props){
         super(props);
